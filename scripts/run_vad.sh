@@ -5,7 +5,7 @@
 
 # Write here the name and path of your program and database
 DB=db.v4
-CMD="bin/vad --alpha1=6 --alpha2=5 --nInit=5"
+CMD="bin/vad --alpha1=3 --alpha2=4 --nInit=10"
 
 for filewav in $DB/*/*wav; do
 #    echo

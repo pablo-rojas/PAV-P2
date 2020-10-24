@@ -86,8 +86,9 @@ int main(int argc, char *argv[])
     buffer_zeros[i] = 0.0F;
 
   frame_duration = (float)frame_size / (float)sf_info.samplerate;
-  last_state = ST_UNDEF;
+  last_state = ST_SILENCE;
 
+  mid_t = 0;
   for (t = last_t = 0;; t++)
   { /* For each frame ... */
     /* End loop when file has finished (or there is an error) */
@@ -119,7 +120,6 @@ int main(int argc, char *argv[])
         fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, mid_t * frame_duration, state2str(last_state));
       last_state = state;
       last_t = mid_t;
-      mid_t = 0;
     }
 
     if (sndfile_out != 0)
@@ -130,8 +130,10 @@ int main(int argc, char *argv[])
 
   state = vad_close(vad_data);
   /* TODO: what do you want to print, for last frames? */
-  if (t != last_t)
-    fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, t * frame_duration + n_read / (float)sf_info.samplerate, state2str(state));
+  if (t != last_t){
+    fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, t * frame_duration + n_read / (float)sf_info.samplerate, state2str(last_state));
+    mid_t = 0;
+  }
 
   /* clean up: free memory, close open files */
   free(buffer);
