@@ -25,17 +25,21 @@ typedef struct
    VAD_STATE state;
    float sampling_rate;
    unsigned int frame_length;
-   float last_feature; /* for debuggin purposes */
-   float k0;           /*Nivel estimado de silencio */
-   float k1;           /*Umbral de decisión voz-silencio */
-   float alpha1;       /*Margen voz-silencio-umbral */
+   float last_feature;  /* for debuggin purposes */
+   float k0;            /* Estimated value of silence */
+   float k1;            /* First Voice-Undef-Silence decision threshold k1 = k0 + alpha1 */
+   float k2;            /* Second Voice-Undef-Silence decision threshold k2 = k1 + aplha2 */
+   float alpha1;        /* First margin Voice-Undef-Silence */
+   float alpha2;        /* Second margin Voice-Undef-Silence */
+   int cInit;           /* Counter of samples in INIT state */
+   int nInit;           /* Maximum number of samples permited in INIT state */
 } VAD_DATA;
 
 /* Call this function before using VAD: 
    It should return allocated and initialized values of vad_data
 
    sampling_rate: ... the sampling rate */
-VAD_DATA *vad_open(float sampling_rate, float alpha1);
+VAD_DATA *vad_open(float sampling_rate, float alpha1, float alpha2, int nInit);
 
 /* vad works frame by frame.
    This function returns the frame size so that the program knows how
