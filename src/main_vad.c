@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
   unsigned int t, last_t, mid_t; /* in frames */
   float alpha1;
   float alpha2;
-  int N_init;
+  int nInit;
 
   char *input_wav, *output_vad, *output_wav;
 
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
   output_wav = args.output_wav;
   alpha1 = atof(args.alpha1);
   alpha2 = atof(args.alpha2);
-  N_init = atoi(args.N_init);
+  nInit = atoi(args.nInit);
 
   if (input_wav == 0 || output_vad == 0)
   {
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     }
   }
 
-  vad_data = vad_open(sf_info.samplerate, alpha1, alpha2, N_init
+  vad_data = vad_open(sf_info.samplerate, alpha1, alpha2, nInit
   );
   /* Allocate memory for buffers */
   frame_size = vad_frame_size(vad_data);
@@ -105,9 +105,8 @@ int main(int argc, char *argv[])
 
     /* TODO: print only SILENCE and VOICE labels */
     /* As it is, it prints UNDEF segments but is should be merge to the proper value */
-<<<<<<< HEAD
     if ((state != last_state) && ((state == ST_MAYBE_SILENCE) || (state == ST_MAYBE_VOICE))) {
-      if ((t != last_t) && (mid_t == 0);
+      if ((t != last_t) && (mid_t == 0))
         mid_t = t;
     }
 
@@ -116,10 +115,6 @@ int main(int argc, char *argv[])
     }
 
     if ((state != last_state) && ((state == ST_VOICE) || (state == ST_SILENCE))) {
-=======
-    if (state != last_state)
-    {
->>>>>>> e61a375a9903a192e0183fe682766c112353a7b6
       if (t != last_t)
         fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, mid_t * frame_duration, state2str(last_state));
       last_state = state;
