@@ -53,13 +53,16 @@ Features compute_features(const float *x, int N)
  * TODO: Init the values of vad_data
  */
 
-VAD_DATA *vad_open(float rate, float alpha1)
+VAD_DATA *vad_open(float rate, float alpha1, float alpha2, int nInit)
 {
   VAD_DATA *vad_data = malloc(sizeof(VAD_DATA));
   vad_data->state = ST_INIT;
   vad_data->sampling_rate = rate;
   vad_data->frame_length = rate * FRAME_TIME * 1e-3;
   vad_data->alpha1 = alpha1;
+  vad_data->alpha2 = alpha2;
+  vad_data->nInit = nInit;
+  vad_data->cInit = 0;
   return vad_data;
 }
 
@@ -100,30 +103,45 @@ VAD_STATE vad(VAD_DATA *vad_data, float *x)
   case ST_INIT:
     vad_data->k0 = f.p;
     vad_data->k1 = vad_data->k0 + vad_data->alpha1;
-    vad_data->state = ST_SILENCE;
+    vad_data->k2 = vad_data->k1 + vad_data->alpha2;
+    vad_data->cInit = vad_data->cInit + 1;
+    if (vad_data->cInit < vad_data->nInit) 
+      vad_data->state = ST_INIT;
+    else
+      vad_data->state =ST_SILENCE;
     break;
 
   case ST_SILENCE:
     if (f.p > vad_data->k1)
-      vad_data->state = ST_VOICE;
+      vad_data->state = ST_MAYBE_VOICE;
     break;
 
   case ST_VOICE:
-    if (f.p < vad_data->k1)
-      vad_data->state = ST_SILENCE;
+    if (f.p < vad_data->k2)
+      vad_data->state = ST_MAYBE_SILENCE;
     break;
 
   case ST_MAYBE_SILENCE:
+    if (f.p > vad_data->k2)
+      vad_data->state = ST_VOICE;
+    else if (f.p < vad_data->k1)
+      vad_data->state = ST_SILENCE;
     break;
 
   case ST_MAYBE_VOICE:
+    if (f.p > vad_data->k2)
+      vad_data->state = ST_VOICE;
+    else if (f.p < vad_data->k1)
+      vad_data->state = ST_SILENCE;
     break;
 
   case ST_UNDEF:
     break;
   }
-
-  return vad_data->state;
+  if (vad_data->state == ST_INIT)
+    return ST_SILENCE;
+  else 
+    return vad_data->state;
 }
 
 void vad_show_state(const VAD_DATA *vad_data, FILE *out)

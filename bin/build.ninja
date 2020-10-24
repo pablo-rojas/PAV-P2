@@ -26,7 +26,7 @@ rule CUSTOM_COMMAND
  restat = 1
 
 rule REGENERATE_BUILD
- command = /usr/bin/meson --internal regenerate /mnt/c/Users/pablo/PAV-P2 /mnt/c/Users/pablo/PAV-P2/bin --backend ninja
+ command = /usr/bin/meson --internal regenerate /mnt/c/Users/arias/PAV-P2 /mnt/c/Users/arias/PAV-P2/bin --backend ninja
  description = Regenerating build files.
  generator = 1
 
@@ -48,7 +48,7 @@ build vad@exe/src_pav_analysis.c.o: c_COMPILER ../src/pav_analysis.c
  DEPFILE = vad@exe/src_pav_analysis.c.o.d
  ARGS = -Ivad@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g
 
-build vad: c_LINKER vad@exe/src_main_vad.c.o vad@exe/src_vad.c.o vad@exe/src_pav_analysis.c.o | /usr/lib/x86_64-linux-gnu/libm.a /usr/lib/x86_64-linux-gnu/libm.so /usr/lib/x86_64-linux-gnu/libsndfile.a /usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.28
+build vad: c_LINKER vad@exe/src_main_vad.c.o vad@exe/src_vad.c.o vad@exe/src_pav_analysis.c.o | /usr/lib/x86_64-linux-gnu/libm.a /usr/lib/x86_64-linux-gnu/libm.so
  LINK_ARGS = -Wl,--as-needed -Wl,--no-undefined -Wl,--start-group -lm -lsndfile -Wl,--end-group
 
 # Test rules
