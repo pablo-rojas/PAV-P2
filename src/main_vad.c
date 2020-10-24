@@ -21,12 +21,13 @@ int main(int argc, char *argv[])
   VAD_STATE state, last_state;
 
   float *buffer, *buffer_zeros;
-  int frame_size;         /* in samples */
-  float frame_duration;   /* in seconds */
+  int frame_size;                /* in samples */
+  float frame_duration;          /* in seconds */
   unsigned int t, last_t, mid_t; /* in frames */
   float alpha1;
   float alpha2;
   int nInit;
+  int nChange = 9;
 
   char *input_wav, *output_vad, *output_wav;
 
@@ -76,8 +77,7 @@ int main(int argc, char *argv[])
     }
   }
 
-  vad_data = vad_open(sf_info.samplerate, alpha1, alpha2, nInit
-  );
+  vad_data = vad_open(sf_info.samplerate, alpha1, alpha2, nInit);
   /* Allocate memory for buffers */
   frame_size = vad_frame_size(vad_data);
   buffer = (float *)malloc(frame_size * sizeof(float));
@@ -106,20 +106,35 @@ int main(int argc, char *argv[])
 
     /* TODO: print only SILENCE and VOICE labels */
     /* As it is, it prints UNDEF segments but is should be merge to the proper value */
-    if ((state != last_state) && ((state == ST_MAYBE_SILENCE) || (state == ST_MAYBE_VOICE))) {
+    if ((state != last_state) && ((state == ST_MAYBE_SILENCE) || (state == ST_MAYBE_VOICE)))
+    {
       if ((t != last_t) && (mid_t == 0))
         mid_t = t;
     }
-
-    if ((state == last_state) && (mid_t != 0)){
-        mid_t = 0;
-    }
-
-    if ((state != last_state) && ((state == ST_VOICE) || (state == ST_SILENCE))) {
+/*
+    if ((state != last_state) && ((state == ST_VOICE) || (state == ST_SILENCE)))
+    {
       if (t != last_t)
+      {
+        mid_t = mid_t;
+        mid_t = 0;
         fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, mid_t * frame_duration, state2str(last_state));
-      last_state = state;
-      last_t = mid_t;
+        * last_state = state;
+        * last_t = mid_t;
+        
+      }
+    }
+    */
+
+    if ((mid_t != 0) && (t-mid_t > nChange) && (state != ST_MAYBE_SILENCE) && (state != ST_MAYBE_VOICE)){
+      if (state != last_state){
+        fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, mid_t * frame_duration, state2str(last_state));
+        last_state = state;
+        last_t = mid_t;
+        mid_t = 0;
+      } else {
+        mid_t = 0;
+      }
     }
 
     if (sndfile_out != 0)
@@ -130,7 +145,8 @@ int main(int argc, char *argv[])
 
   state = vad_close(vad_data);
   /* TODO: what do you want to print, for last frames? */
-  if (t != last_t){
+  if (t != last_t)
+  {
     fprintf(vadfile, "%.5f\t%.5f\t%s\n", last_t * frame_duration, t * frame_duration + n_read / (float)sf_info.samplerate, state2str(last_state));
     mid_t = 0;
   }
