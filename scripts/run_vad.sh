@@ -5,7 +5,11 @@
 
 # Write here the name and path of your program and database
 DB=db.v4
-CMD="bin/vad --alpha1=3 --alpha2=4 --nInit=10"
+alpha1=2
+alpha2=2
+nInit=10
+nChange=8
+CMD="bin/vad --alpha1="$alpha1" --alpha2="$alpha2" --nInit="$nInit" --nChange="$nChange
 
 for filewav in $DB/*/*wav; do
 #    echo
@@ -24,7 +28,8 @@ for filewav in $DB/*/*wav; do
 #    $CMD $filewav $filevad $filewavOut || exit 1
 
 done
-
-scripts/vad_evaluation.pl $DB/*/*lab
+echo $alpha1$'\t'$alpha2$'\t'$nInit$'\t'$nChange  >> total.txt
+scripts/vad_evaluation.pl $DB/*/*lab > evaluation.txt
+tail -n 2 evaluation.txt | awk '{ print $3 }' >> total.txt
 
 exit 0

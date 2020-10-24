@@ -53,7 +53,7 @@ Features compute_features(const float *x, int N)
  * TODO: Init the values of vad_data
  */
 
-VAD_DATA *vad_open(float rate, float alpha1, float alpha2, int nInit)
+VAD_DATA *vad_open(float rate, float alpha1, float alpha2, int nInit, int nChange)
 {
   VAD_DATA *vad_data = malloc(sizeof(VAD_DATA));
   vad_data->state = ST_INIT;
@@ -62,6 +62,7 @@ VAD_DATA *vad_open(float rate, float alpha1, float alpha2, int nInit)
   vad_data->alpha1 = alpha1;
   vad_data->alpha2 = alpha2;
   vad_data->nInit = nInit;
+  vad_data->nChange = nChange;
   vad_data->cInit = 0;
   return vad_data;
 }

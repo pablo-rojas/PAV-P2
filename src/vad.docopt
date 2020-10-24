@@ -12,6 +12,7 @@ Options:
    -1 FLOAT, --alpha1=FLOAT    alpha1
    -1 FLOAT, --alpha2=FLOAT    alpha2
    -1 INT, --nInit=INT         nInit
+   -1 INT, --nChange=INT       nChange
    -v, --verbose  Show debug information
    -h, --help     Show this screen
    --version      Show the version of the project

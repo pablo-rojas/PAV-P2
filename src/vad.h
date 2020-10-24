@@ -33,13 +33,14 @@ typedef struct
    float alpha2;        /* Second margin Voice-Undef-Silence */
    int cInit;           /* Counter of samples in INIT state */
    int nInit;           /* Maximum number of samples permited in INIT state */
+   int nChange;
 } VAD_DATA;
 
 /* Call this function before using VAD: 
    It should return allocated and initialized values of vad_data
 
    sampling_rate: ... the sampling rate */
-VAD_DATA *vad_open(float sampling_rate, float alpha1, float alpha2, int nInit);
+VAD_DATA *vad_open(float sampling_rate, float alpha1, float alpha2, int nInit, int nChange);
 
 /* vad works frame by frame.
    This function returns the frame size so that the program knows how

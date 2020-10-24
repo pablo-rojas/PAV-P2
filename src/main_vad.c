@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
   float alpha1;
   float alpha2;
   int nInit;
-  int nChange = 9;
+  int nChange;
 
   char *input_wav, *output_vad, *output_wav;
 
@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
   alpha1 = atof(args.alpha1);
   alpha2 = atof(args.alpha2);
   nInit = atoi(args.nInit);
+  nChange = atoi(args.nChange);
 
   if (input_wav == 0 || output_vad == 0)
   {
@@ -77,7 +78,7 @@ int main(int argc, char *argv[])
     }
   }
 
-  vad_data = vad_open(sf_info.samplerate, alpha1, alpha2, nInit);
+  vad_data = vad_open(sf_info.samplerate, alpha1, alpha2, nInit, nChange);
   /* Allocate memory for buffers */
   frame_size = vad_frame_size(vad_data);
   buffer = (float *)malloc(frame_size * sizeof(float));

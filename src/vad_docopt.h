@@ -19,6 +19,7 @@ typedef struct {
     char *alpha1;
     char *alpha2;
     char *input_wav;
+    char *nChange;
     char *nInit;
     char *output_vad;
     char *output_wav;
@@ -42,6 +43,7 @@ const char help_message[] =
 "   -1 FLOAT, --alpha1=FLOAT    alpha1\n"
 "   -1 FLOAT, --alpha2=FLOAT    alpha2\n"
 "   -1 INT, --nInit=INT         nInit\n"
+"   -1 INT, --nChange=INT       nChange\n"
 "   -v, --verbose  Show debug information\n"
 "   -h, --help     Show this screen\n"
 "   --version      Show the version of the project\n"
@@ -285,6 +287,9 @@ int elems_to_args(Elements *elements, DocoptArgs *args, bool help,
         } else if (!strcmp(option->olong, "--input-wav")) {
             if (option->argument)
                 args->input_wav = option->argument;
+        } else if (!strcmp(option->olong, "--nChange")) {
+            if (option->argument)
+                args->nChange = option->argument;
         } else if (!strcmp(option->olong, "--nInit")) {
             if (option->argument)
                 args->nInit = option->argument;
@@ -314,7 +319,7 @@ int elems_to_args(Elements *elements, DocoptArgs *args, bool help,
 
 DocoptArgs docopt(int argc, char *argv[], bool help, const char *version) {
     DocoptArgs args = {
-        0, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL,
+        0, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
         usage_pattern, help_message
     };
     Tokens ts;
@@ -329,11 +334,12 @@ DocoptArgs docopt(int argc, char *argv[], bool help, const char *version) {
         {"-1", "--alpha1", 1, 0, NULL},
         {"-1", "--alpha2", 1, 0, NULL},
         {"-i", "--input-wav", 1, 0, NULL},
+        {"-1", "--nChange", 1, 0, NULL},
         {"-1", "--nInit", 1, 0, NULL},
         {"-o", "--output-vad", 1, 0, NULL},
         {"-w", "--output-wav", 1, 0, NULL}
     };
-    Elements elements = {0, 0, 9, commands, arguments, options};
+    Elements elements = {0, 0, 10, commands, arguments, options};
 
     ts = tokens_new(argc, argv);
     if (parse_args(&ts, &elements))
