@@ -64,6 +64,7 @@ VAD_DATA *vad_open(float rate, float alpha1, float alpha2, int nInit, int nChang
   vad_data->nInit = nInit;
   vad_data->nChange = nChange;
   vad_data->cInit = 0;
+  vad_data->k0 = 1;
   return vad_data;
 }
 
@@ -102,12 +103,12 @@ VAD_STATE vad(VAD_DATA *vad_data, float *x)
   switch (vad_data->state)
   {
   case ST_INIT:
-    vad_data->k0 = f.p;
+    vad_data->k0 = 10*log10((pow(10, f.p/10) + vad_data->cInit*pow(10, vad_data->k0/10))/(vad_data->cInit+1) );
     vad_data->k1 = vad_data->k0 + vad_data->alpha1;
     vad_data->k2 = vad_data->k1 + vad_data->alpha2;
     vad_data->cInit = vad_data->cInit + 1;
     if (vad_data->cInit < vad_data->nInit) 
-      vad_data->state = ST_INIT;
+      vad_data->state =ST_INIT;
     else
       vad_data->state =ST_SILENCE;
     break;
