@@ -1,42 +1,42 @@
 **************** db.v4/2014/pav_4151.lab ****************
-Recall V:  6.81/6.94   98.13%   Precision V:  6.81/7.63   89.24%   F-score V (2)  : 96.21%
-Recall S:  2.31/3.13   73.81%   Precision S:  2.31/2.44   94.68%   F-score S (1/2): 89.61%
-===> db.v4/2014/pav_4151.lab: 92.852%
+Recall V:  6.94/6.94   99.99%   Precision V:  6.94/7.94   87.39%   F-score V (2)  : 97.19%
+Recall S:  2.13/3.13   68.05%   Precision S:  2.13/2.13   99.98%   F-score S (1/2): 91.40%
+===> db.v4/2014/pav_4151.lab: 94.251%
 
 **************** db.v4/2014/pav_4152.lab ****************
-Recall V: 27.26/28.13  96.90%   Precision V: 27.26/28.30  96.31%   F-score V (2)  : 96.78%
-Recall S:  5.60/6.64   84.29%   Precision S:  5.60/6.47   86.54%   F-score S (1/2): 86.08%
-===> db.v4/2014/pav_4152.lab: 91.276%
+Recall V: 27.65/28.13  98.32%   Precision V: 27.65/29.49  93.77%   F-score V (2)  : 97.37%
+Recall S:  4.81/6.64   72.36%   Precision S:  4.81/5.28   91.03%   F-score S (1/2): 86.56%
+===> db.v4/2014/pav_4152.lab: 91.809%
 
 **************** db.v4/2014/pav_4161.lab ****************
-Recall V:  3.06/3.09   98.87%   Precision V:  3.06/3.34   91.54%   F-score V (2)  : 97.31%
-Recall S:  1.15/1.43   80.21%   Precision S:  1.15/1.18   97.03%   F-score S (1/2): 93.13%
-===> db.v4/2014/pav_4161.lab: 95.197%
+Recall V:  3.09/3.09  100.00%   Precision V:  3.09/3.36   92.04%   F-score V (2)  : 98.30%
+Recall S:  1.16/1.43   81.26%   Precision S:  1.16/1.16  100.00%   F-score S (1/2): 95.59%
+===> db.v4/2014/pav_4161.lab: 96.936%
 
 **************** db.v4/2014/pav_4171.lab ****************
-Recall V:  4.65/5.02   92.69%   Precision V:  4.65/4.72   98.58%   F-score V (2)  : 93.81%
-Recall S:  1.02/1.08   93.83%   Precision S:  1.02/1.39   73.50%   F-score S (1/2): 76.83%
-===> db.v4/2014/pav_4171.lab: 84.899%
+Recall V:  4.81/5.02   95.79%   Precision V:  4.81/4.99   96.36%   F-score V (2)  : 95.90%
+Recall S:  0.90/1.08   83.28%   Precision S:  0.90/1.12   81.03%   F-score S (1/2): 81.47%
+===> db.v4/2014/pav_4171.lab: 88.391%
 
 **************** db.v4/2014/pav_4172.lab ****************
-Recall V:  5.33/5.57   95.69%   Precision V:  5.33/5.33   99.93%   F-score V (2)  : 96.51%
-Recall S:  0.35/0.35   99.02%   Precision S:  0.35/0.59   59.25%   F-score S (1/2): 64.43%
-===> db.v4/2014/pav_4172.lab: 78.853%
+Recall V:  5.39/5.57   96.77%   Precision V:  5.39/5.39   99.94%   F-score V (2)  : 97.38%
+Recall S:  0.35/0.35   99.02%   Precision S:  0.35/0.53   65.97%   F-score S (1/2): 70.69%
+===> db.v4/2014/pav_4172.lab: 82.971%
 
 **************** db.v4/2014/pav_4305.lab ****************
-Recall V:  2.90/3.06   94.75%   Precision V:  2.90/3.14   92.34%   F-score V (2)  : 94.26%
-Recall S:  2.25/2.49   90.34%   Precision S:  2.25/2.41   93.33%   F-score S (1/2): 92.72%
-===> db.v4/2014/pav_4305.lab: 93.484%
+Recall V:  2.88/3.06   94.10%   Precision V:  2.88/3.00   95.98%   F-score V (2)  : 94.47%
+Recall S:  2.37/2.49   95.16%   Precision S:  2.37/2.55   92.91%   F-score S (1/2): 93.35%
+===> db.v4/2014/pav_4305.lab: 93.909%
 
 **************** db.v4/2014/pav_4311.lab ****************
-Recall V: 18.39/18.83  97.66%   Precision V: 18.39/20.03  91.82%   F-score V (2)  : 96.44%
-Recall S:  3.11/4.75   65.51%   Precision S:  3.11/3.55   87.60%   F-score S (1/2): 82.07%
-===> db.v4/2014/pav_4311.lab: 88.963%
+Recall V: 18.80/18.83  99.80%   Precision V: 18.80/20.54  91.51%   F-score V (2)  : 98.02%
+Recall S:  3.00/4.75   63.25%   Precision S:  3.00/3.04   98.77%   F-score S (1/2): 88.79%
+===> db.v4/2014/pav_4311.lab: 93.294%
 
 **************** db.v4/2014/pav_4341.lab ****************
-Recall V:  9.94/10.00  99.40%   Precision V:  9.94/11.53  86.20%   F-score V (2)  : 96.45%
-Recall S:  3.39/4.98   68.06%   Precision S:  3.39/3.45   98.26%   F-score S (1/2): 90.25%
-===> db.v4/2014/pav_4341.lab: 93.297%
+Recall V:  9.95/10.00  99.50%   Precision V:  9.95/11.16  89.16%   F-score V (2)  : 97.24%
+Recall S:  3.77/4.98   75.71%   Precision S:  3.77/3.82   98.69%   F-score S (1/2): 93.04%
+===> db.v4/2014/pav_4341.lab: 95.120%
 
 **************** db.v4/2015/pav_2109.lab ****************
 Recall V:  2.28/2.32   98.16%   Precision V:  2.28/2.29   99.63%   F-score V (2)  : 98.45%
@@ -44,89 +44,89 @@ Recall S:  1.76/1.76   99.53%   Precision S:  1.76/1.80   97.62%   F-score S (1/
 ===> db.v4/2015/pav_2109.lab: 98.223%
 
 **************** db.v4/2015/pav_2110.lab ****************
-Recall V:  2.65/2.81   94.22%   Precision V:  2.65/2.84   93.31%   F-score V (2)  : 94.04%
-Recall S:  1.32/1.51   87.45%   Precision S:  1.32/1.49   89.07%   F-score S (1/2): 88.74%
-===> db.v4/2015/pav_2110.lab: 91.350%
+Recall V:  2.74/2.81   97.24%   Precision V:  2.74/2.95   92.71%   F-score V (2)  : 96.30%
+Recall S:  1.30/1.51   85.80%   Precision S:  1.30/1.38   94.37%   F-score S (1/2): 92.52%
+===> db.v4/2015/pav_2110.lab: 94.392%
 
 **************** db.v4/2015/pav_2151.lab ****************
-Recall V: 12.75/13.22  96.46%   Precision V: 12.75/13.82  92.27%   F-score V (2)  : 95.59%
-Recall S: 13.00/14.07  92.41%   Precision S: 13.00/13.47  96.53%   F-score S (1/2): 95.67%
-===> db.v4/2015/pav_2151.lab: 95.634%
+Recall V: 13.07/13.22  98.89%   Precision V: 13.07/13.84  94.46%   F-score V (2)  : 97.97%
+Recall S: 13.30/14.07  94.55%   Precision S: 13.30/13.45  98.91%   F-score S (1/2): 98.01%
+===> db.v4/2015/pav_2151.lab: 97.990%
 
 **************** db.v4/2015/pav_2152.lab ****************
-Recall V:  6.94/6.94  100.00%   Precision V:  6.94/9.91   70.00%   F-score V (2)  : 92.10%
-Recall S:  3.55/6.52   54.42%   Precision S:  3.55/3.55  100.00%   F-score S (1/2): 85.65%
-===> db.v4/2015/pav_2152.lab: 88.819%
+Recall V:  6.94/6.94  100.00%   Precision V:  6.94/10.14  68.41%   F-score V (2)  : 91.54%
+Recall S:  3.32/6.52   50.89%   Precision S:  3.32/3.32  100.00%   F-score S (1/2): 83.82%
+===> db.v4/2015/pav_2152.lab: 87.599%
 
 **************** db.v4/2015/pav_2171.lab ****************
-Recall V:  2.49/2.57   97.11%   Precision V:  2.49/2.75   90.60%   F-score V (2)  : 95.73%
-Recall S:  1.68/1.94   86.65%   Precision S:  1.68/1.75   95.76%   F-score S (1/2): 93.78%
-===> db.v4/2015/pav_2171.lab: 94.753%
+Recall V:  2.49/2.57   97.11%   Precision V:  2.49/2.68   92.97%   F-score V (2)  : 96.25%
+Recall S:  1.75/1.94   90.26%   Precision S:  1.75/1.82   95.92%   F-score S (1/2): 94.73%
+===> db.v4/2015/pav_2171.lab: 95.488%
 
 **************** db.v4/2015/pav_2172.lab ****************
-Recall V:  2.60/2.70   96.47%   Precision V:  2.60/3.54   73.50%   F-score V (2)  : 90.80%
-Recall S:  5.08/6.02   84.42%   Precision S:  5.08/5.18   98.16%   F-score S (1/2): 95.07%
-===> db.v4/2015/pav_2172.lab: 92.908%
+Recall V:  2.62/2.70   97.21%   Precision V:  2.62/4.44   59.04%   F-score V (2)  : 86.08%
+Recall S:  4.20/6.02   69.81%   Precision S:  4.20/4.28   98.24%   F-score S (1/2): 90.84%
+===> db.v4/2015/pav_2172.lab: 88.430%
 
 **************** db.v4/201617q1/pav_1341.lab ****************
-Recall V:  1.96/2.07   94.59%   Precision V:  1.96/2.13   91.93%   F-score V (2)  : 94.04%
-Recall S:  2.31/2.49   93.08%   Precision S:  2.31/2.43   95.38%   F-score S (1/2): 94.91%
-===> db.v4/201617q1/pav_1341.lab: 94.477%
+Recall V:  1.92/2.07   92.75%   Precision V:  1.92/1.92  100.00%   F-score V (2)  : 94.12%
+Recall S:  2.49/2.49  100.00%   Precision S:  2.49/2.64   94.31%   F-score S (1/2): 95.39%
+===> db.v4/201617q1/pav_1341.lab: 94.752%
 
 **************** db.v4/201617q1/pav_4111.lab ****************
-Recall V:  5.35/5.63   95.00%   Precision V:  5.35/6.15   86.97%   F-score V (2)  : 93.27%
-Recall S:  3.96/4.76   83.17%   Precision S:  3.96/4.24   93.36%   F-score S (1/2): 91.12%
-===> db.v4/201617q1/pav_4111.lab: 92.193%
+Recall V:  5.55/5.63   98.57%   Precision V:  5.55/6.33   87.67%   F-score V (2)  : 96.18%
+Recall S:  3.98/4.76   83.61%   Precision S:  3.98/4.06   98.01%   F-score S (1/2): 94.75%
+===> db.v4/201617q1/pav_4111.lab: 95.460%
 
 **************** db.v4/201617q1/pav_4112.lab ****************
-Recall V:  2.93/2.95   99.54%   Precision V:  2.93/4.54   64.64%   F-score V (2)  : 89.84%
-Recall S:  5.05/6.65   75.87%   Precision S:  5.05/5.06   99.73%   F-score S (1/2): 93.83%
-===> db.v4/201617q1/pav_4112.lab: 91.814%
+Recall V:  2.94/2.95   99.68%   Precision V:  2.94/4.67   62.93%   F-score V (2)  : 89.25%
+Recall S:  4.92/6.65   73.97%   Precision S:  4.92/4.93   99.81%   F-score S (1/2): 93.29%
+===> db.v4/201617q1/pav_4112.lab: 91.251%
 
 **************** db.v4/201617q1/pav_41191.lab ****************
-Recall V:  2.83/3.04   93.15%   Precision V:  2.83/2.96   95.68%   F-score V (2)  : 93.64%
-Recall S:  3.51/3.64   96.48%   Precision S:  3.51/3.72   94.39%   F-score S (1/2): 94.80%
-===> db.v4/201617q1/pav_41191.lab: 94.222%
+Recall V:  2.82/3.04   92.81%   Precision V:  2.82/2.85   99.01%   F-score V (2)  : 93.99%
+Recall S:  3.61/3.64   99.23%   Precision S:  3.61/3.83   94.29%   F-score S (1/2): 95.24%
+===> db.v4/201617q1/pav_41191.lab: 94.613%
 
 **************** db.v4/201617q1/pav_41192.lab ****************
-Recall V:  2.24/2.37   94.57%   Precision V:  2.24/2.38   94.13%   F-score V (2)  : 94.48%
-Recall S:  5.90/6.04   97.69%   Precision S:  5.90/6.03   97.87%   F-score S (1/2): 97.83%
-===> db.v4/201617q1/pav_41192.lab: 96.141%
+Recall V:  2.25/2.37   94.99%   Precision V:  2.25/2.41   93.38%   F-score V (2)  : 94.66%
+Recall S:  5.88/6.04   97.36%   Precision S:  5.88/6.00   98.02%   F-score S (1/2): 97.89%
+===> db.v4/201617q1/pav_41192.lab: 96.263%
 
 **************** db.v4/201617q1/pav_412_1.lab ****************
-Recall V:  3.34/4.22   79.06%   Precision V:  3.34/3.34  100.00%   F-score V (2)  : 82.52%
-Recall S:  2.99/2.99  100.00%   Precision S:  2.99/3.87   77.14%   F-score S (1/2): 80.84%
-===> db.v4/201617q1/pav_412_1.lab: 81.672%
+Recall V:  3.84/4.22   90.89%   Precision V:  3.84/3.84  100.00%   F-score V (2)  : 92.58%
+Recall S:  2.99/2.99  100.00%   Precision S:  2.99/3.37   88.59%   F-score S (1/2): 90.66%
+===> db.v4/201617q1/pav_412_1.lab: 91.613%
 
 **************** db.v4/201617q1/pav_4131.lab ****************
-Recall V:  3.30/3.44   95.93%   Precision V:  3.30/4.35   75.88%   F-score V (2)  : 91.11%
-Recall S:  1.06/2.10   50.14%   Precision S:  1.06/1.20   88.29%   F-score S (1/2): 76.63%
-===> db.v4/201617q1/pav_4131.lab: 83.557%
+Recall V:  3.19/3.44   92.59%   Precision V:  3.19/4.02   79.24%   F-score V (2)  : 89.57%
+Recall S:  1.27/2.10   60.35%   Precision S:  1.27/1.53   83.28%   F-score S (1/2): 77.40%
+===> db.v4/201617q1/pav_4131.lab: 83.264%
 
 **************** db.v4/201617q1/pav_4132.lab ****************
-Recall V:  3.21/3.35   95.83%   Precision V:  3.21/4.35   73.88%   F-score V (2)  : 90.45%
-Recall S:  1.06/2.19   48.15%   Precision S:  1.06/1.20   88.29%   F-score S (1/2): 75.67%
-===> db.v4/201617q1/pav_4132.lab: 82.731%
+Recall V:  3.19/3.35   95.23%   Precision V:  3.19/4.02   79.44%   F-score V (2)  : 91.59%
+Recall S:  1.37/2.19   62.29%   Precision S:  1.37/1.53   89.51%   F-score S (1/2): 82.32%
+===> db.v4/201617q1/pav_4132.lab: 86.829%
 
 **************** db.v4/201617q1/pav_4151.lab ****************
-Recall V:  2.10/2.11   99.49%   Precision V:  2.10/2.20   95.25%   F-score V (2)  : 98.61%
-Recall S:  1.88/1.98   94.73%   Precision S:  1.88/1.89   99.43%   F-score S (1/2): 98.45%
-===> db.v4/201617q1/pav_4151.lab: 98.530%
+Recall V:  2.10/2.11   99.49%   Precision V:  2.10/2.30   91.11%   F-score V (2)  : 97.69%
+Recall S:  1.78/1.98   89.68%   Precision S:  1.78/1.79   99.39%   F-score S (1/2): 97.29%
+===> db.v4/201617q1/pav_4151.lab: 97.489%
 
 **************** db.v4/201617q1/pav_4161.lab ****************
-Recall V:  2.03/2.34   86.58%   Precision V:  2.03/2.25   90.11%   F-score V (2)  : 87.26%
-Recall S:  0.80/1.03   78.34%   Precision S:  0.80/1.12   71.91%   F-score S (1/2): 73.11%
-===> db.v4/201617q1/pav_4161.lab: 79.873%
+Recall V:  2.00/2.34   85.19%   Precision V:  2.00/2.15   92.79%   F-score V (2)  : 86.61%
+Recall S:  0.87/1.03   84.91%   Precision S:  0.87/1.22   71.55%   F-score S (1/2): 73.87%
+===> db.v4/201617q1/pav_4161.lab: 79.988%
 
 **************** db.v4/201617q1/pav_418.lab ****************
-Recall V:  2.87/3.10   92.60%   Precision V:  2.87/3.14   91.29%   F-score V (2)  : 92.34%
-Recall S:  4.54/4.82   94.32%   Precision S:  4.54/4.77   95.20%   F-score S (1/2): 95.03%
-===> db.v4/201617q1/pav_418.lab: 93.672%
+Recall V:  3.03/3.10   97.75%   Precision V:  3.03/3.37   89.78%   F-score V (2)  : 96.04%
+Recall S:  4.47/4.82   92.85%   Precision S:  4.47/4.54   98.46%   F-score S (1/2): 97.29%
+===> db.v4/201617q1/pav_418.lab: 96.664%
 
 **************** db.v4/201617q1/pav_4311.lab ****************
-Recall V:  1.68/1.68  100.00%   Precision V:  1.68/2.55   65.90%   F-score V (2)  : 90.62%
-Recall S:  1.91/2.78   68.73%   Precision S:  1.91/1.91  100.00%   F-score S (1/2): 91.66%
-===> db.v4/201617q1/pav_4311.lab: 91.139%
+Recall V:  1.68/1.68  100.00%   Precision V:  1.68/3.00   56.01%   F-score V (2)  : 86.43%
+Recall S:  1.46/2.78   52.55%   Precision S:  1.46/1.46  100.00%   F-score S (1/2): 84.70%
+===> db.v4/201617q1/pav_4311.lab: 85.560%
 
 **************** db.v4/201617q1/pav_4312.lab ****************
 Recall V:  3.11/3.11  100.00%   Precision V:  3.11/3.77   82.63%   F-score V (2)  : 95.96%
@@ -134,169 +134,169 @@ Recall S:  1.06/1.72   61.91%   Precision S:  1.06/1.06  100.00%   F-score S (1/
 ===> db.v4/201617q1/pav_4312.lab: 92.438%
 
 **************** db.v4/201617q1/pav_4313.lab ****************
-Recall V:  1.92/1.92   99.87%   Precision V:  1.92/2.74   69.89%   F-score V (2)  : 91.98%
-Recall S:  1.11/1.94   57.41%   Precision S:  1.11/1.11   99.78%   F-score S (1/2): 86.94%
-===> db.v4/201617q1/pav_4313.lab: 89.425%
+Recall V:  1.92/1.92  100.00%   Precision V:  1.92/2.68   71.55%   F-score V (2)  : 92.63%
+Recall S:  1.17/1.94   60.64%   Precision S:  1.17/1.17  100.00%   F-score S (1/2): 88.51%
+===> db.v4/201617q1/pav_4313.lab: 90.547%
 
 **************** db.v4/201617q1/pav_4321.lab ****************
-Recall V:  4.14/4.59   90.26%   Precision V:  4.14/5.12   80.91%   F-score V (2)  : 88.22%
-Recall S:  4.54/5.52   82.28%   Precision S:  4.54/4.98   91.03%   F-score S (1/2): 89.13%
-===> db.v4/201617q1/pav_4321.lab: 88.676%
+Recall V:  4.13/4.59   89.93%   Precision V:  4.13/4.69   88.01%   F-score V (2)  : 89.54%
+Recall S:  4.95/5.52   89.80%   Precision S:  4.95/5.42   91.47%   F-score S (1/2): 91.13%
+===> db.v4/201617q1/pav_4321.lab: 90.331%
 
 **************** db.v4/201617q1/pav_4331.lab ****************
-Recall V:  5.76/5.78   99.70%   Precision V:  5.76/5.90   97.65%   F-score V (2)  : 99.28%
-Recall S:  3.09/3.23   95.70%   Precision S:  3.09/3.11   99.44%   F-score S (1/2): 98.67%
-===> db.v4/201617q1/pav_4331.lab: 98.973%
+Recall V:  5.77/5.78   99.83%   Precision V:  5.77/6.08   94.88%   F-score V (2)  : 98.80%
+Recall S:  2.92/3.23   90.36%   Precision S:  2.92/2.93   99.66%   F-score S (1/2): 97.65%
+===> db.v4/201617q1/pav_4331.lab: 98.221%
 
 **************** db.v4/201617q1/pav_4351.lab ****************
-Recall V:  3.38/3.42   98.66%   Precision V:  3.38/3.41   99.10%   F-score V (2)  : 98.75%
-Recall S:  4.17/4.20   99.27%   Precision S:  4.17/4.22   98.91%   F-score S (1/2): 98.98%
-===> db.v4/201617q1/pav_4351.lab: 98.867%
+Recall V:  3.37/3.42   98.48%   Precision V:  3.37/3.54   95.28%   F-score V (2)  : 97.83%
+Recall S:  4.03/4.20   96.03%   Precision S:  4.03/4.09   98.73%   F-score S (1/2): 98.18%
+===> db.v4/201617q1/pav_4351.lab: 98.002%
 
 **************** db.v4/201617q2/pav_1121.lab ****************
-Recall V:  8.30/8.47   97.93%   Precision V:  8.30/9.59   86.52%   F-score V (2)  : 95.42%
-Recall S:  2.65/3.94   67.22%   Precision S:  2.65/2.83   93.81%   F-score S (1/2): 86.93%
-===> db.v4/201617q2/pav_1121.lab: 91.075%
+Recall V:  8.16/8.47   96.28%   Precision V:  8.16/9.57   85.24%   F-score V (2)  : 93.85%
+Recall S:  2.53/3.94   64.18%   Precision S:  2.53/2.85   88.93%   F-score S (1/2): 82.56%
+===> db.v4/201617q2/pav_1121.lab: 88.025%
 
 **************** db.v4/201617q2/pav_1131.lab ****************
-Recall V:  3.44/3.49   98.57%   Precision V:  3.44/3.69   93.29%   F-score V (2)  : 97.47%
-Recall S:  1.75/2.00   87.60%   Precision S:  1.75/1.80   97.22%   F-score S (1/2): 95.13%
-===> db.v4/201617q2/pav_1131.lab: 96.290%
+Recall V:  3.45/3.49   98.85%   Precision V:  3.45/3.50   98.64%   F-score V (2)  : 98.81%
+Recall S:  1.95/2.00   97.62%   Precision S:  1.95/1.99   97.99%   F-score S (1/2): 97.91%
+===> db.v4/201617q2/pav_1131.lab: 98.362%
 
 **************** db.v4/201617q2/pav_1141.lab ****************
-Recall V:  3.28/3.97   82.57%   Precision V:  3.28/3.28  100.00%   F-score V (2)  : 85.55%
-Recall S:  3.61/3.61  100.00%   Precision S:  3.61/4.30   83.90%   F-score S (1/2): 86.69%
-===> db.v4/201617q2/pav_1141.lab: 86.119%
+Recall V:  3.32/3.97   83.57%   Precision V:  3.32/3.32  100.00%   F-score V (2)  : 86.41%
+Recall S:  3.61/3.61  100.00%   Precision S:  3.61/4.26   84.69%   F-score S (1/2): 87.36%
+===> db.v4/201617q2/pav_1141.lab: 86.887%
 
 **************** db.v4/201617q2/pav_1171.lab ****************
-Recall V: 11.89/12.61  94.29%   Precision V: 11.89/11.94  99.60%   F-score V (2)  : 95.31%
-Recall S:  8.73/8.78   99.46%   Precision S:  8.73/9.45   92.38%   F-score S (1/2): 93.72%
-===> db.v4/201617q2/pav_1171.lab: 94.509%
+Recall V: 12.03/12.61  95.36%   Precision V: 12.03/12.18  98.75%   F-score V (2)  : 96.02%
+Recall S:  8.63/8.78   98.26%   Precision S:  8.63/9.21   93.65%   F-score S (1/2): 94.54%
+===> db.v4/201617q2/pav_1171.lab: 95.276%
 
 **************** db.v4/201617q2/pav_2151.lab ****************
-Recall V:  5.31/5.32   99.81%   Precision V:  5.31/6.15   86.34%   F-score V (2)  : 96.79%
-Recall S:  1.20/2.04   58.78%   Precision S:  1.20/1.21   99.18%   F-score S (1/2): 87.19%
-===> db.v4/201617q2/pav_2151.lab: 91.868%
+Recall V:  5.31/5.32   99.81%   Precision V:  5.31/6.00   88.50%   F-score V (2)  : 97.33%
+Recall S:  1.35/2.04   66.15%   Precision S:  1.35/1.36   99.27%   F-score S (1/2): 90.23%
+===> db.v4/201617q2/pav_2151.lab: 93.711%
 
 **************** db.v4/2017-18q1/pav_1131.lab ****************
-Recall V:  6.93/7.38   93.93%   Precision V:  6.93/7.12   97.33%   F-score V (2)  : 94.59%
-Recall S:  3.85/4.04   95.30%   Precision S:  3.85/4.30   89.60%   F-score S (1/2): 90.68%
-===> db.v4/2017-18q1/pav_1131.lab: 92.619%
+Recall V:  7.20/7.38   97.59%   Precision V:  7.20/7.48   96.23%   F-score V (2)  : 97.32%
+Recall S:  3.76/4.04   93.02%   Precision S:  3.76/3.94   95.49%   F-score S (1/2): 94.99%
+===> db.v4/2017-18q1/pav_1131.lab: 96.147%
 
 **************** db.v4/2017-18q1/pav_4115.lab ****************
-Recall V:  1.42/1.42  100.00%   Precision V:  1.42/1.75   81.14%   F-score V (2)  : 95.56%
-Recall S:  0.65/0.98   66.28%   Precision S:  0.65/0.65  100.00%   F-score S (1/2): 90.76%
-===> db.v4/2017-18q1/pav_4115.lab: 93.130%
+Recall V:  1.42/1.42  100.00%   Precision V:  1.42/1.79   79.33%   F-score V (2)  : 95.05%
+Recall S:  0.61/0.98   62.19%   Precision S:  0.61/0.61  100.00%   F-score S (1/2): 89.16%
+===> db.v4/2017-18q1/pav_4115.lab: 92.056%
 
 **************** db.v4/2017-18q1/pav_4131.lab ****************
-Recall V: 11.33/11.49  98.62%   Precision V: 11.33/12.05  94.06%   F-score V (2)  : 97.67%
-Recall S:  5.51/6.23   88.50%   Precision S:  5.51/5.67   97.20%   F-score S (1/2): 95.33%
-===> db.v4/2017-18q1/pav_4131.lab: 96.493%
+Recall V: 11.34/11.49  98.71%   Precision V: 11.34/11.90  95.33%   F-score V (2)  : 98.01%
+Recall S:  5.67/6.23   91.08%   Precision S:  5.67/5.82   97.45%   F-score S (1/2): 96.10%
+===> db.v4/2017-18q1/pav_4131.lab: 97.053%
 
 **************** db.v4/2017-18q1/pav_4141.lab ****************
-Recall V:  4.51/4.68   96.37%   Precision V:  4.51/5.11   88.27%   F-score V (2)  : 94.63%
-Recall S:  1.70/2.30   73.96%   Precision S:  1.70/1.87   90.92%   F-score S (1/2): 86.93%
-===> db.v4/2017-18q1/pav_4141.lab: 90.700%
+Recall V:  4.50/4.68   96.15%   Precision V:  4.50/4.99   90.14%   F-score V (2)  : 94.89%
+Recall S:  1.81/2.30   78.63%   Precision S:  1.81/1.99   90.95%   F-score S (1/2): 88.19%
+===> db.v4/2017-18q1/pav_4141.lab: 91.478%
 
 **************** db.v4/2017-18q1/pav_4161.lab ****************
-Recall V:  2.17/2.17  100.00%   Precision V:  2.17/2.39   90.79%   F-score V (2)  : 98.01%
-Recall S:  1.71/1.93   88.59%   Precision S:  1.71/1.71  100.00%   F-score S (1/2): 97.49%
-===> db.v4/2017-18q1/pav_4161.lab: 97.750%
+Recall V:  2.17/2.17  100.00%   Precision V:  2.17/2.53   85.77%   F-score V (2)  : 96.79%
+Recall S:  1.57/1.93   81.32%   Precision S:  1.57/1.57  100.00%   F-score S (1/2): 95.61%
+===> db.v4/2017-18q1/pav_4161.lab: 96.197%
 
 **************** db.v4/2017-18q1/pav_4171.lab ****************
-Recall V:  5.86/6.06   96.76%   Precision V:  5.86/5.98   97.99%   F-score V (2)  : 97.00%
-Recall S:  5.11/5.23   97.70%   Precision S:  5.11/5.31   96.30%   F-score S (1/2): 96.58%
-===> db.v4/2017-18q1/pav_4171.lab: 96.789%
+Recall V:  5.95/6.06   98.27%   Precision V:  5.95/6.13   97.09%   F-score V (2)  : 98.03%
+Recall S:  5.05/5.23   96.58%   Precision S:  5.05/5.16   97.97%   F-score S (1/2): 97.69%
+===> db.v4/2017-18q1/pav_4171.lab: 97.863%
 
 **************** db.v4/2017-18q1/pav_4341.lab ****************
-Recall V:  5.30/5.30  100.00%   Precision V:  5.30/6.74   78.59%   F-score V (2)  : 94.83%
-Recall S:  2.52/3.96   63.59%   Precision S:  2.52/2.52  100.00%   F-score S (1/2): 89.73%
-===> db.v4/2017-18q1/pav_4341.lab: 92.244%
+Recall V:  5.30/5.30  100.00%   Precision V:  5.30/6.81   77.78%   F-score V (2)  : 94.60%
+Recall S:  2.45/3.96   61.82%   Precision S:  2.45/2.45  100.00%   F-score S (1/2): 89.00%
+===> db.v4/2017-18q1/pav_4341.lab: 91.757%
 
 **************** db.v4/2017-18q2/pav_137.lab ****************
-Recall V:  2.64/2.66   99.25%   Precision V:  2.64/2.72   96.88%   F-score V (2)  : 98.76%
-Recall S:  1.44/1.53   94.44%   Precision S:  1.44/1.46   98.63%   F-score S (1/2): 97.77%
-===> db.v4/2017-18q2/pav_137.lab: 98.263%
+Recall V:  2.62/2.66   98.49%   Precision V:  2.62/2.80   93.39%   F-score V (2)  : 97.43%
+Recall S:  1.34/1.53   87.90%   Precision S:  1.34/1.38   97.11%   F-score S (1/2): 95.12%
+===> db.v4/2017-18q2/pav_137.lab: 96.266%
 
 **************** db.v4/2017-18q2/pav_2121.lab ****************
-Recall V:  3.84/4.42   86.92%   Precision V:  3.84/4.01   95.71%   F-score V (2)  : 88.55%
-Recall S:  3.55/3.72   95.38%   Precision S:  3.55/4.12   86.00%   F-score S (1/2): 87.72%
-===> db.v4/2017-18q2/pav_2121.lab: 88.135%
+Recall V:  4.20/4.42   95.07%   Precision V:  4.20/4.21   99.72%   F-score V (2)  : 95.97%
+Recall S:  3.71/3.72   99.68%   Precision S:  3.71/3.92   94.46%   F-score S (1/2): 95.46%
+===> db.v4/2017-18q2/pav_2121.lab: 95.713%
 
 **************** db.v4/2017-18q2/pav_2141.lab ****************
-Recall V:  3.97/3.99   99.56%   Precision V:  3.97/4.59   86.60%   F-score V (2)  : 96.67%
-Recall S:  1.33/1.95   68.44%   Precision S:  1.33/1.35   98.70%   F-score S (1/2): 90.68%
-===> db.v4/2017-18q2/pav_2141.lab: 93.628%
+Recall V:  3.97/3.99   99.56%   Precision V:  3.97/4.44   89.53%   F-score V (2)  : 97.38%
+Recall S:  1.48/1.95   76.14%   Precision S:  1.48/1.50   98.83%   F-score S (1/2): 93.27%
+===> db.v4/2017-18q2/pav_2141.lab: 95.304%
 
 **************** db.v4/2017-18q2/pav_2142.lab ****************
-Recall V:  3.38/3.58   94.49%   Precision V:  3.38/4.16   81.37%   F-score V (2)  : 91.54%
-Recall S:  0.47/1.25   37.85%   Precision S:  0.47/0.67   70.50%   F-score S (1/2): 60.13%
-===> db.v4/2017-18q2/pav_2142.lab: 74.190%
+Recall V:  3.53/3.58   98.67%   Precision V:  3.53/4.31   82.02%   F-score V (2)  : 94.82%
+Recall S:  0.47/1.25   37.85%   Precision S:  0.47/0.52   90.86%   F-score S (1/2): 70.98%
+===> db.v4/2017-18q2/pav_2142.lab: 82.040%
 
 **************** db.v4/2017-18q2/pav_2171.lab ****************
-Recall V:  3.46/3.67   94.30%   Precision V:  3.46/3.75   92.30%   F-score V (2)  : 93.89%
-Recall S:  6.45/6.74   95.71%   Precision S:  6.45/6.66   96.86%   F-score S (1/2): 96.63%
-===> db.v4/2017-18q2/pav_2171.lab: 95.247%
+Recall V:  3.49/3.67   95.03%   Precision V:  3.49/3.62   96.36%   F-score V (2)  : 95.29%
+Recall S:  6.61/6.74   98.04%   Precision S:  6.61/6.79   97.31%   F-score S (1/2): 97.46%
+===> db.v4/2017-18q2/pav_2171.lab: 96.369%
 
 **************** db.v4/2017-18q2/pav_2191.lab ****************
-Recall V:  4.02/4.11   98.05%   Precision V:  4.02/4.27   94.26%   F-score V (2)  : 97.27%
-Recall S:  2.67/2.92   91.60%   Precision S:  2.67/2.75   97.09%   F-score S (1/2): 95.94%
-===> db.v4/2017-18q2/pav_2191.lab: 96.603%
+Recall V:  4.08/4.11   99.27%   Precision V:  4.08/4.45   91.57%   F-score V (2)  : 97.63%
+Recall S:  2.54/2.92   87.14%   Precision S:  2.54/2.57   98.83%   F-score S (1/2): 96.25%
+===> db.v4/2017-18q2/pav_2191.lab: 96.937%
 
 **************** db.v4/2017-18q2/pav_231.lab ****************
-Recall V:  4.80/4.97   96.58%   Precision V:  4.80/7.70   62.33%   F-score V (2)  : 87.01%
-Recall S:  2.25/5.15   43.69%   Precision S:  2.25/2.42   92.98%   F-score S (1/2): 75.86%
-===> db.v4/2017-18q2/pav_231.lab: 81.245%
+Recall V:  4.80/4.97   96.58%   Precision V:  4.80/7.48   64.16%   F-score V (2)  : 87.71%
+Recall S:  2.47/5.15   47.96%   Precision S:  2.47/2.64   93.56%   F-score S (1/2): 78.61%
+===> db.v4/2017-18q2/pav_231.lab: 83.038%
 
 **************** db.v4/2017-18q2/pav_232.lab ****************
-Recall V:  2.92/2.95   98.98%   Precision V:  2.92/3.73   78.31%   F-score V (2)  : 94.02%
-Recall S:  1.57/2.38   65.99%   Precision S:  1.57/1.60   98.12%   F-score S (1/2): 89.42%
-===> db.v4/2017-18q2/pav_232.lab: 91.689%
+Recall V:  2.93/2.95   99.32%   Precision V:  2.93/3.84   76.32%   F-score V (2)  : 93.68%
+Recall S:  1.47/2.38   61.79%   Precision S:  1.47/1.49   98.66%   F-score S (1/2): 88.14%
+===> db.v4/2017-18q2/pav_232.lab: 90.866%
 
 **************** db.v4/2017-18q2/pav_233.lab ****************
-Recall V:  3.44/3.46   99.39%   Precision V:  3.44/4.12   83.46%   F-score V (2)  : 95.73%
-Recall S:  2.39/3.07   77.82%   Precision S:  2.39/2.41   99.12%   F-score S (1/2): 93.98%
-===> db.v4/2017-18q2/pav_233.lab: 94.850%
+Recall V:  3.45/3.46   99.71%   Precision V:  3.45/4.66   74.03%   F-score V (2)  : 93.24%
+Recall S:  1.86/3.07   60.61%   Precision S:  1.86/1.87   99.47%   F-score S (1/2): 88.16%
+===> db.v4/2017-18q2/pav_233.lab: 90.668%
 
 **************** db.v4/2017-18q2/pav_2342.lab ****************
-Recall V:  2.30/2.39   95.96%   Precision V:  2.30/2.30   99.92%   F-score V (2)  : 96.73%
-Recall S:  1.94/1.94   99.90%   Precision S:  1.94/2.04   95.25%   F-score S (1/2): 96.14%
-===> db.v4/2017-18q2/pav_2342.lab: 96.434%
+Recall V:  2.30/2.39   96.04%   Precision V:  2.30/2.30  100.00%   F-score V (2)  : 96.81%
+Recall S:  1.94/1.94  100.00%   Precision S:  1.94/2.04   95.34%   F-score S (1/2): 96.24%
+===> db.v4/2017-18q2/pav_2342.lab: 96.523%
 
 **************** db.v4/2017-18q2/pav_236.lab ****************
-Recall V:  3.23/3.36   95.99%   Precision V:  3.23/3.61   89.40%   F-score V (2)  : 94.59%
-Recall S:  1.33/1.71   77.70%   Precision S:  1.33/1.47   90.80%   F-score S (1/2): 87.84%
-===> db.v4/2017-18q2/pav_236.lab: 91.152%
+Recall V:  3.33/3.36   98.96%   Precision V:  3.33/3.49   95.34%   F-score V (2)  : 98.21%
+Recall S:  1.55/1.71   90.52%   Precision S:  1.55/1.59   97.80%   F-score S (1/2): 96.25%
+===> db.v4/2017-18q2/pav_236.lab: 97.227%
 
 **************** db.v4/2017-18q2/pav_237.lab ****************
-Recall V:  5.14/5.32   96.64%   Precision V:  5.14/5.87   87.59%   F-score V (2)  : 94.68%
-Recall S:  2.02/2.75   73.46%   Precision S:  2.02/2.20   91.85%   F-score S (1/2): 87.47%
-===> db.v4/2017-18q2/pav_237.lab: 91.005%
+Recall V:  5.31/5.32   99.86%   Precision V:  5.31/6.22   85.42%   F-score V (2)  : 96.59%
+Recall S:  1.84/2.74   66.96%   Precision S:  1.84/1.85   99.59%   F-score S (1/2): 90.75%
+===> db.v4/2017-18q2/pav_237.lab: 93.625%
 
 **************** db.v4/2017-18q2/pav_238.lab ****************
-Recall V:  3.81/4.56   83.61%   Precision V:  3.81/3.85   99.03%   F-score V (2)  : 86.29%
-Recall S:  2.71/2.75   98.64%   Precision S:  2.71/3.46   78.38%   F-score S (1/2): 81.74%
-===> db.v4/2017-18q2/pav_238.lab: 83.985%
+Recall V:  4.12/4.56   90.46%   Precision V:  4.12/4.19   98.45%   F-score V (2)  : 91.95%
+Recall S:  2.68/2.75   97.63%   Precision S:  2.68/3.12   86.05%   F-score S (1/2): 88.14%
+===> db.v4/2017-18q2/pav_238.lab: 90.026%
 
 **************** db.v4/2017-18q2/pav_239.lab ****************
-Recall V:  5.27/5.71   92.27%   Precision V:  5.27/5.71   92.33%   F-score V (2)  : 92.28%
-Recall S:  2.22/2.66   83.54%   Precision S:  2.22/2.67   83.44%   F-score S (1/2): 83.46%
-===> db.v4/2017-18q2/pav_239.lab: 87.763%
+Recall V:  5.53/5.71   96.76%   Precision V:  5.53/6.24   88.59%   F-score V (2)  : 95.00%
+Recall S:  1.95/2.66   73.26%   Precision S:  1.95/2.14   91.32%   F-score S (1/2): 87.03%
+===> db.v4/2017-18q2/pav_239.lab: 90.929%
 
 **************** db.v4/2018-19q1/pav_4111.lab ****************
-Recall V:  2.77/2.92   94.66%   Precision V:  2.77/3.06   90.38%   F-score V (2)  : 93.77%
-Recall S:  3.34/3.63   91.89%   Precision S:  3.34/3.49   95.54%   F-score S (1/2): 94.78%
-===> db.v4/2018-19q1/pav_4111.lab: 94.278%
+Recall V:  2.77/2.92   94.87%   Precision V:  2.77/3.29   84.24%   F-score V (2)  : 92.53%
+Recall S:  3.11/3.63   85.72%   Precision S:  3.11/3.26   95.40%   F-score S (1/2): 93.30%
+===> db.v4/2018-19q1/pav_4111.lab: 92.913%
 
 **************** db.v4/2018-19q1/pav_4112.lab ****************
-Recall V:  0.81/1.29   62.90%   Precision V:  0.81/1.09   74.69%   F-score V (2)  : 64.95%
-Recall S:  1.63/1.90   85.51%   Precision S:  1.63/2.11   77.22%   F-score S (1/2): 78.75%
-===> db.v4/2018-19q1/pav_4112.lab: 71.516%
+Recall V:  0.83/1.29   63.81%   Precision V:  0.83/0.96   86.03%   F-score V (2)  : 67.29%
+Recall S:  1.77/1.90   92.96%   Precision S:  1.77/2.24   79.08%   F-score S (1/2): 81.51%
+===> db.v4/2018-19q1/pav_4112.lab: 74.058%
 
 **************** db.v4/2018-19q1/pav_4121.lab ****************
-Recall V:  2.98/2.99   99.67%   Precision V:  2.98/3.50   85.17%   F-score V (2)  : 96.38%
-Recall S:  2.63/3.15   83.53%   Precision S:  2.63/2.64   99.62%   F-score S (1/2): 95.93%
-===> db.v4/2018-19q1/pav_4121.lab: 96.154%
+Recall V:  2.99/2.99  100.00%   Precision V:  2.99/3.66   81.72%   F-score V (2)  : 95.72%
+Recall S:  2.48/3.15   78.77%   Precision S:  2.48/2.48  100.00%   F-score S (1/2): 94.89%
+===> db.v4/2018-19q1/pav_4121.lab: 95.300%
 
 **************** db.v4/2018-19q1/pav_4122.lab ****************
 Recall V:  1.26/1.26  100.00%   Precision V:  1.26/1.31   95.81%   F-score V (2)  : 99.13%
@@ -304,107 +304,107 @@ Recall S:  1.22/1.27   95.69%   Precision S:  1.22/1.22  100.00%   F-score S (1/
 ===> db.v4/2018-19q1/pav_4122.lab: 99.120%
 
 **************** db.v4/2018-19q1/pav_4131.lab ****************
-Recall V: 13.21/13.83  95.52%   Precision V: 13.21/13.50  97.82%   F-score V (2)  : 95.97%
-Recall S:  3.02/3.31   91.11%   Precision S:  3.02/3.64   82.97%   F-score S (1/2): 84.48%
-===> db.v4/2018-19q1/pav_4131.lab: 90.044%
+Recall V: 13.46/13.83  97.39%   Precision V: 13.46/13.50  99.73%   F-score V (2)  : 97.85%
+Recall S:  3.28/3.31   98.91%   Precision S:  3.28/3.64   90.07%   F-score S (1/2): 91.71%
+===> db.v4/2018-19q1/pav_4131.lab: 94.729%
 
 **************** db.v4/2018-19q1/pav_4132.lab ****************
-Recall V: 10.38/10.60  97.92%   Precision V: 10.38/10.41  99.76%   F-score V (2)  : 98.29%
-Recall S:  1.82/1.84   98.62%   Precision S:  1.82/2.04   89.20%   F-score S (1/2): 90.94%
-===> db.v4/2018-19q1/pav_4132.lab: 94.539%
+Recall V: 10.59/10.60  99.83%   Precision V: 10.59/10.62  99.69%   F-score V (2)  : 99.80%
+Recall S:  1.81/1.84   98.19%   Precision S:  1.81/1.83   99.01%   F-score S (1/2): 98.85%
+===> db.v4/2018-19q1/pav_4132.lab: 99.324%
 
 **************** db.v4/2018-19q1/pav_4141.lab ****************
-Recall V:  2.94/2.94   99.81%   Precision V:  2.94/3.16   92.91%   F-score V (2)  : 98.35%
-Recall S:  0.55/0.77   71.10%   Precision S:  0.55/0.56   99.00%   F-score S (1/2): 91.80%
-===> db.v4/2018-19q1/pav_4141.lab: 95.018%
+Recall V:  2.94/2.94   99.81%   Precision V:  2.94/2.96   99.19%   F-score V (2)  : 99.69%
+Recall S:  0.75/0.77   96.91%   Precision S:  0.75/0.76   99.27%   F-score S (1/2): 98.79%
+===> db.v4/2018-19q1/pav_4141.lab: 99.236%
 
 **************** db.v4/2018-19q1/pav_4151.lab ****************
-Recall V:  1.83/1.85   99.07%   Precision V:  1.83/1.91   95.71%   F-score V (2)  : 98.37%
-Recall S:  0.97/1.05   92.23%   Precision S:  0.97/0.99   98.26%   F-score S (1/2): 96.99%
-===> db.v4/2018-19q1/pav_4151.lab: 97.680%
+Recall V:  1.68/1.85   91.19%   Precision V:  1.68/1.69   99.56%   F-score V (2)  : 92.75%
+Recall S:  1.05/1.05   99.30%   Precision S:  1.05/1.21   86.56%   F-score S (1/2): 88.84%
+===> db.v4/2018-19q1/pav_4151.lab: 90.773%
 
 **************** db.v4/2018-19q1/pav_4152.lab ****************
-Recall V:  0.74/1.36   54.42%   Precision V:  0.74/0.74  100.00%   F-score V (2)  : 59.88%
-Recall S:  1.57/1.57  100.00%   Precision S:  1.57/2.19   71.67%   F-score S (1/2): 75.97%
-===> db.v4/2018-19q1/pav_4152.lab: 67.447%
+Recall V:  0.88/1.36   64.51%   Precision V:  0.88/0.89   98.56%   F-score V (2)  : 69.29%
+Recall S:  1.55/1.57   99.18%   Precision S:  1.55/2.04   76.31%   F-score S (1/2): 80.00%
+===> db.v4/2018-19q1/pav_4152.lab: 74.455%
 
 **************** db.v4/2018-19q1/pav_4161.lab ****************
-Recall V:  3.17/3.37   94.13%   Precision V:  3.17/3.26   97.26%   F-score V (2)  : 94.74%
-Recall S:  1.67/1.76   94.92%   Precision S:  1.67/1.87   89.41%   F-score S (1/2): 90.46%
-===> db.v4/2018-19q1/pav_4161.lab: 92.576%
+Recall V:  3.31/3.37   98.32%   Precision V:  3.31/3.39   97.70%   F-score V (2)  : 98.19%
+Recall S:  1.68/1.76   95.56%   Precision S:  1.68/1.74   96.74%   F-score S (1/2): 96.50%
+===> db.v4/2018-19q1/pav_4161.lab: 97.345%
 
 **************** db.v4/2018-19q1/pav_4171.lab ****************
-Recall V:  3.65/3.78   96.61%   Precision V:  3.65/3.67   99.46%   F-score V (2)  : 97.16%
-Recall S:  2.48/2.50   99.20%   Precision S:  2.48/2.61   95.09%   F-score S (1/2): 95.89%
-===> db.v4/2018-19q1/pav_4171.lab: 96.522%
+Recall V:  3.69/3.78   97.64%   Precision V:  3.69/3.72   99.17%   F-score V (2)  : 97.94%
+Recall S:  2.47/2.50   98.76%   Precision S:  2.47/2.56   96.52%   F-score S (1/2): 96.96%
+===> db.v4/2018-19q1/pav_4171.lab: 97.449%
 
 **************** db.v4/2018-19q1/pav_4172.lab ****************
-Recall V:  2.08/3.00   69.31%   Precision V:  2.08/2.24   92.82%   F-score V (2)  : 73.01%
-Recall S:  2.11/2.27   92.91%   Precision S:  2.11/3.03   69.62%   F-score S (1/2): 73.29%
-===> db.v4/2018-19q1/pav_4172.lab: 73.151%
+Recall V:  2.66/3.00   88.84%   Precision V:  2.66/2.79   95.52%   F-score V (2)  : 90.10%
+Recall S:  2.14/2.27   94.49%   Precision S:  2.14/2.48   86.50%   F-score S (1/2): 87.99%
+===> db.v4/2018-19q1/pav_4172.lab: 89.040%
 
 **************** db.v4/2018-19q1/pav_4181.lab ****************
-Recall V:  2.62/2.85   91.86%   Precision V:  2.62/3.18   82.43%   F-score V (2)  : 89.81%
-Recall S:  3.62/4.18   86.63%   Precision S:  3.62/3.85   93.97%   F-score S (1/2): 92.40%
-===> db.v4/2018-19q1/pav_4181.lab: 91.096%
+Recall V:  2.63/2.85   92.12%   Precision V:  2.63/2.96   88.81%   F-score V (2)  : 91.44%
+Recall S:  3.85/4.18   92.07%   Precision S:  3.85/4.07   94.48%   F-score S (1/2): 93.99%
+===> db.v4/2018-19q1/pav_4181.lab: 92.706%
 
 **************** db.v4/2018-19q1/pav_4182.lab ****************
-Recall V:  3.51/3.64   96.36%   Precision V:  3.51/5.65   62.04%   F-score V (2)  : 86.76%
-Recall S:  3.42/5.57   61.47%   Precision S:  3.42/3.55   96.27%   F-score S (1/2): 86.48%
-===> db.v4/2018-19q1/pav_4182.lab: 86.621%
+Recall V:  3.64/3.64   99.93%   Precision V:  3.64/5.45   66.70%   F-score V (2)  : 90.88%
+Recall S:  3.75/5.57   67.39%   Precision S:  3.75/3.75   99.94%   F-score S (1/2): 91.14%
+===> db.v4/2018-19q1/pav_4182.lab: 91.007%
 
 **************** db.v4/2018-19q1/pav_4341.lab ****************
-Recall V:  3.94/4.47   88.28%   Precision V:  3.94/3.95   99.85%   F-score V (2)  : 90.37%
-Recall S:  4.32/4.32   99.86%   Precision S:  4.32/4.84   89.19%   F-score S (1/2): 91.13%
-===> db.v4/2018-19q1/pav_4341.lab: 90.753%
+Recall V:  4.17/4.47   93.34%   Precision V:  4.17/4.17  100.00%   F-score V (2)  : 94.60%
+Recall S:  4.32/4.32  100.00%   Precision S:  4.32/4.62   93.56%   F-score S (1/2): 94.78%
+===> db.v4/2018-19q1/pav_4341.lab: 94.692%
 
 **************** db.v4/2018-19q1/pav_4342.lab ****************
-Recall V:  2.39/4.30   55.61%   Precision V:  2.39/2.63   90.97%   F-score V (2)  : 60.30%
-Recall S:  3.95/4.18   94.33%   Precision S:  3.95/5.86   67.39%   F-score S (1/2): 71.47%
-===> db.v4/2018-19q1/pav_4342.lab: 65.647%
+Recall V:  2.43/4.30   56.50%   Precision V:  2.43/2.56   94.96%   F-score V (2)  : 61.48%
+Recall S:  4.06/4.18   96.92%   Precision S:  4.06/5.93   68.42%   F-score S (1/2): 72.70%
+===> db.v4/2018-19q1/pav_4342.lab: 66.854%
 
 **************** db.v4/2018-19q1/pav_4351.lab ****************
-Recall V:  2.80/3.02   92.54%   Precision V:  2.80/3.08   90.85%   F-score V (2)  : 92.19%
-Recall S:  2.47/2.75   89.75%   Precision S:  2.47/2.69   91.62%   F-score S (1/2): 91.24%
-===> db.v4/2018-19q1/pav_4351.lab: 91.716%
+Recall V:  3.01/3.02   99.65%   Precision V:  3.01/3.36   89.68%   F-score V (2)  : 97.48%
+Recall S:  2.40/2.75   87.38%   Precision S:  2.40/2.41   99.56%   F-score S (1/2): 96.86%
+===> db.v4/2018-19q1/pav_4351.lab: 97.168%
 
 **************** db.v4/2018-19q1/pav_4352.lab ****************
-Recall V:  4.08/4.08  100.00%   Precision V:  4.08/5.32   76.63%   F-score V (2)  : 94.25%
-Recall S:  0.57/1.82   31.62%   Precision S:  0.57/0.57  100.00%   F-score S (1/2): 69.81%
-===> db.v4/2018-19q1/pav_4352.lab: 81.117%
+Recall V:  4.08/4.08  100.00%   Precision V:  4.08/5.36   76.06%   F-score V (2)  : 94.08%
+Recall S:  0.53/1.82   29.42%   Precision S:  0.53/0.53  100.00%   F-score S (1/2): 67.58%
+===> db.v4/2018-19q1/pav_4352.lab: 79.736%
 
 **************** db.v4/2018-19q1/pav_4361.lab ****************
-Recall V:  1.62/1.64   98.78%   Precision V:  1.62/1.98   81.75%   F-score V (2)  : 94.83%
-Recall S:  2.91/3.27   88.95%   Precision S:  2.91/2.93   99.32%   F-score S (1/2): 97.05%
-===> db.v4/2018-19q1/pav_4361.lab: 95.935%
+Recall V:  1.62/1.64   98.78%   Precision V:  1.62/2.34   69.17%   F-score V (2)  : 90.99%
+Recall S:  2.55/3.27   77.93%   Precision S:  2.55/2.57   99.22%   F-score S (1/2): 94.08%
+===> db.v4/2018-19q1/pav_4361.lab: 92.523%
 
 **************** db.v4/2018-19q1/pav_4362.lab ****************
-Recall V:  2.70/2.70  100.00%   Precision V:  2.70/3.32   81.42%   F-score V (2)  : 95.63%
-Recall S:  1.28/1.89   67.41%   Precision S:  1.28/1.28  100.00%   F-score S (1/2): 91.18%
-===> db.v4/2018-19q1/pav_4362.lab: 93.383%
+Recall V:  2.70/2.70  100.00%   Precision V:  2.70/3.09   87.48%   F-score V (2)  : 97.22%
+Recall S:  1.51/1.89   79.56%   Precision S:  1.51/1.51  100.00%   F-score S (1/2): 95.11%
+===> db.v4/2018-19q1/pav_4362.lab: 96.159%
 
 **************** db.v4/2018-19q1/pav_4371.lab ****************
-Recall V:  1.80/1.85   97.22%   Precision V:  1.80/1.82   98.89%   F-score V (2)  : 97.55%
-Recall S:  3.34/3.36   99.40%   Precision S:  3.34/3.39   98.48%   F-score S (1/2): 98.66%
-===> db.v4/2018-19q1/pav_4371.lab: 98.104%
+Recall V:  1.81/1.85   97.76%   Precision V:  1.81/1.83   98.90%   F-score V (2)  : 97.98%
+Recall S:  3.34/3.36   99.40%   Precision S:  3.34/3.38   98.77%   F-score S (1/2): 98.90%
+===> db.v4/2018-19q1/pav_4371.lab: 98.440%
 
 **************** db.v4/2018-19q1/pav_4372.lab ****************
-Recall V:  1.98/2.07   95.67%   Precision V:  1.98/2.52   78.62%   F-score V (2)  : 91.70%
-Recall S:  2.82/3.36   83.95%   Precision S:  2.82/2.91   96.92%   F-score S (1/2): 94.01%
-===> db.v4/2018-19q1/pav_4372.lab: 92.847%
+Recall V:  2.00/2.07   96.64%   Precision V:  2.00/2.51   79.73%   F-score V (2)  : 92.71%
+Recall S:  2.85/3.36   84.84%   Precision S:  2.85/2.92   97.61%   F-score S (1/2): 94.76%
+===> db.v4/2018-19q1/pav_4372.lab: 93.728%
 
 **************** db.v4/2018-19q1/pav_4382.lab ****************
-Recall V:  6.57/7.21   91.14%   Precision V:  6.57/7.29   90.15%   F-score V (2)  : 90.94%
-Recall S:  8.14/8.85   91.89%   Precision S:  8.14/8.77   92.72%   F-score S (1/2): 92.55%
-===> db.v4/2018-19q1/pav_4382.lab: 91.742%
+Recall V:  6.83/7.21   94.65%   Precision V:  6.83/7.77   87.84%   F-score V (2)  : 93.20%
+Recall S:  7.91/8.85   89.33%   Precision S:  7.91/8.29   95.35%   F-score S (1/2): 94.08%
+===> db.v4/2018-19q1/pav_4382.lab: 93.640%
 
 **************** db.v4/2018-19q1/pav_4385.lab ****************
-Recall V:  3.03/3.24   93.43%   Precision V:  3.03/3.07   98.65%   F-score V (2)  : 94.43%
-Recall S:  3.63/3.67   98.87%   Precision S:  3.63/3.84   94.45%   F-score S (1/2): 95.31%
-===> db.v4/2018-19q1/pav_4385.lab: 94.866%
+Recall V:  3.17/3.24   97.75%   Precision V:  3.17/3.23   98.10%   F-score V (2)  : 97.82%
+Recall S:  3.61/3.67   98.33%   Precision S:  3.61/3.68   98.02%   F-score S (1/2): 98.08%
+===> db.v4/2018-19q1/pav_4385.lab: 97.948%
 
 **************** Summary ****************
-Recall V:365.02/384.10 95.03%   Precision V:365.02/408.29 89.40%   F-score V (2)  : 93.85%
-Recall S:229.31/272.58 84.13%   Precision S:229.31/248.39 92.32%   F-score S (1/2): 90.56%
-===> TOTAL: 92.189%
+Recall V:371.39/384.10 96.69%   Precision V:371.39/415.71 89.34%   F-score V (2)  : 95.13%
+Recall S:228.26/272.58 83.74%   Precision S:228.26/240.97 94.73%   F-score S (1/2): 92.30%
+===> TOTAL: 93.704%
 
