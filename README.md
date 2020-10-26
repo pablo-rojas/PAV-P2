@@ -105,13 +105,18 @@ Ejercicios
   continuación, una captura de `wavesurfer` en la que se vea con claridad la señal temporal, el contorno de
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
 
+	![Alt text](final.jpg)
 
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
 
 	* Incremento del nivel potencia en dB, respecto al nivel correspondiente al silencio inicial, para
 	  estar seguros de que un segmento de señal se corresponde con voz.
 
+		+ _El incremento que hay con respecto el silencio inicial es de una ganancia de unos 25 dB, por lo tanto cojeremos esta diferencia aproximadamente._
+
 	* Duración mínima razonable de los segmentos de voz y silencio.
+
+		+ _Para la duración cojeremos como medida el mas pequeño que hay en nuestra señal de audio, que son unos 170 milisegundos._
 
 	* ¿Es capaz de sacar alguna conclusión a partir de la evolución de la tasa de cruces por cero?
 
@@ -124,13 +129,19 @@ Ejercicios
 - Inserte una gráfica en la que se vea con claridad la señal temporal, el etiquetado manual y la detección
   automática conseguida para el fichero grabado al efecto. 
 
+	![Alt text](graph1.png)
 
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
+
+	+ _Si bien los resultados se parecen en cierta medida a la etiquetación manual, hay cierta diferencia respecto a la etiquetación manual. un ejemplo muy claor es el primer silecio, qu evaria mucho entre ambas versiones. Esto en parte se debe a que nuestro modelo solo tiene en cuenta la potencia, y en esa zona, la potencia es muy baja. Además, parte del error se debe a una etiquetación poco precisa, ya que realmente la voz empieza antes de lo que pone ahí._
 
 - Evalúe los resultados sobre la base de datos `db.v4` con el script `vad_evaluation.pl` e inserte a 
   continuación las tasas de sensibilidad (*recall*) y precisión para el conjunto de la base de datos (sólo
   el resumen).
 
+	_Recall V:371.39/384.10 96.69%   Precision V:371.39/415.71 89.34%   F-score V (2)  : 95.13%_
+	_Recall S:228.26/272.58 83.74%   Precision S:228.26/240.97 94.73%   F-score S (1/2): 92.30%_
+	_===> TOTAL: 93.704%_
 
 ### Trabajos de ampliación
 
@@ -145,14 +156,18 @@ Ejercicios
 - Si ha usado `docopt_c` para realizar la gestión de las opciones y argumentos del programa `vad`, inserte
   una captura de pantalla en la que se vea el mensaje de ayuda del programa.
 
+	![Alt text](graph2.png)
 
 ### Contribuciones adicionales y/o comentarios acerca de la práctica
 
 - Indique a continuación si ha realizado algún tipo de aportación suplementaria (algoritmos de detección o 
   parámetros alternativos, etc.).
 
+	+ _En nuestra realización del programa hemos añadido los parámetros alhpa1 i alpha2 necesarios par aque funcione el FSA completo, además de un parámetro nInit para determinar el número de tramas sobre el que se realiza un promedio para determinar la potencia del silencio inicial. Además hemos añadido un cuarto parametro nChange que marca el numero mínimo de tramas que deben pasar para que un estado (ya sea voz o silencio) se considere como tal. Esto lo hemos implementado de manera que se puedan entrar desde el terminal, facilitando así la busqueda de los parametros optimos. Luego, sobre esto hemos generado un bucle que vaya probando diferentes paramteros, y así pueda determinar cual es el optimo de manera más eficaz._
+
 - Si lo desea, puede realizar también algún comentario acerca de la realización de la práctica que
   considere de interés de cara a su evaluación.
+
 
 
 ### Antes de entregar la práctica
